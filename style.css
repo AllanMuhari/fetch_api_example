@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: black;
+    border: 1px solid red;
+    color: #fff;
+}
+.left_arrow img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+}
+.quality img{
+    width: 30px;
+}
+.package img{
+    width: 30px;
+}
+.backround_image img{
+    width: 100%;
+}
+.icons img{
+    width: 30px;
+}
+.name img{
+    height: 20px;
+
+}
