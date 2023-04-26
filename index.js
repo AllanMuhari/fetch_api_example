@@ -1,5 +1,5 @@
 // fetch method
-fetch ("https://jsonplaceholder.typicode.com/posts") .then ((data)=>{
+fetch ("https://jsonplaceholder.typicode.com/users/1/posts") .then ((data)=>{
     return data.json();
 }).then((completedata)=>{
     //console.log(completedatadata[2].title);
@@ -9,7 +9,7 @@ fetch ("https://jsonplaceholder.typicode.com/posts") .then ((data)=>{
         <img src="images/profile_image.jpg" alt="">
     </div>
     <div class="tweet_text">
-        <h1>${values.userId}
+        <h1>
             <img src="images/quality.png" alt="" class="quality">
             <img src="images/package.png" alt="" class="quality">
         </h1>
@@ -24,3 +24,4 @@ fetch ("https://jsonplaceholder.typicode.com/posts") .then ((data)=>{
 }).catch((err)=>{
     console.log(err);
 })
+//post
