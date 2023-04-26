@@ -79,11 +79,13 @@ body{
 .info{
     padding-top: 50px;
 }
-.pinned_tweets{
+#pinned_tweets{
     margin: 50px;
 }
 .follows{
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+}
+.follows h1{
     padding: 10px;
 }
